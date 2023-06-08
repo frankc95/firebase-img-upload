@@ -1,0 +1,19 @@
+@import "~bootstrap/scss/bootstrap";
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .row {
+    width: 100%;
+
+    .form-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 350px;
+    }
+  }
+}
